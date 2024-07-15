@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(0, 0, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin-top: 26vh;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+#companyName {
+    font-size: 2.5rem;
+}
+
+#atSing {
+    font-size: 1.2rem;
+} 
+
+#links-container {
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.link-content {
+    width: 36vw;
+    padding: 1rem;
+    border-radius: 50px;
+    border: 2px solid aliceblue;
+    text-align: center;
+    position: relative;
+}
+
+.link-content:hover {
+    transition: .5s ease-in-out;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.8);
+    
+}
+
+i {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 35px;
+}
+
+#links-container a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 780px) {
+
+header {
+    gap: 1rem;
+}
+
+#companyName {
+    font-size: 1.8rem;
+}
+
+#atSing {
+    font-size: 1rem;
+}
+
+#links-container {
+    margin-top: 25vh;
+}
+
+.link-content {
+    width: 70vw;
+    padding: .5rem;
+}
+
+i {
+    top: 8px;
+    font-size: 25px;
+}
+
+#links-container a {
+    font-size: 1.2rem;
+}
+
+}
