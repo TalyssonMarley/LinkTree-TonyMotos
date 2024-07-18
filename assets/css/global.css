@@ -81,6 +81,10 @@ header {
     gap: 1rem;
 }
 
+header img {
+    width: 150px;
+}
+
 #companyName {
     font-size: 1.8rem;
 }
@@ -103,7 +107,7 @@ i {
     font-size: 25px;
 }
 
-#links-container a {
+.socialMidia-name {
     font-size: 1.2rem;
 }
 
